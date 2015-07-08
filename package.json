@@ -1,0 +1,28 @@
+{
+    "version": "1.0.0",
+    "name": "playFramework",
+    "private": true,
+    "dependencies": {
+        "flux": "2.0.3",
+        "react": "0.13.3",
+        "react-bootstrap": "0.23.0",
+        "react-router": "0.13.3",
+        "react-document-title": "1.0.2",
+        "babel-loader": "5.2.2",
+        "event-stream": "3.3.1",
+        "gulp": "3.9.0",
+        "gulp-cached": "1.1.0",
+        "gulp-eslint": "0.15.0",
+        "gulp-jshint": "1.11.0",
+        "gulp-notify": "2.2.0",
+        "gulp-react": "3.0.1",
+        "gulp-sass": "2.0.3",
+        "gulp-util": "3.0.5",
+        "jshint-stylish": "2.0.1",
+        "jsx-loader": "0.13.2",
+        "require-dir": "0.3.0",
+        "rimraf": "2.3.4",
+        "underscore": "1.8.3",
+        "webpack": "1.9.10"
+    }
+}
