@@ -1,5 +1,5 @@
 var React = require('react');
-var Framework = require('worlds-simplest-react-framework');
+var Framework = require('./framework');
 
 var config = { title: 'Awesome application' };
 

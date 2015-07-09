@@ -1,8 +1,8 @@
 ﻿module.exports = {
     entry: './scripts/consumer.jsx',
     output: {
-        filename: 'app.js',
-        path: './dist'
+        filename: 'index.js',
+        path: './'
     },
     module: {
         loaders: [
