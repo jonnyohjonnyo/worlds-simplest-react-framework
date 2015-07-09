@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "name": "playFramework",
+    "name": "worlds-simplest-react-framework",
     "private": true,
     "dependencies": {
         "flux": "2.0.3",
@@ -23,6 +23,7 @@
         "require-dir": "0.3.0",
         "rimraf": "2.3.4",
         "underscore": "1.8.3",
-        "webpack": "1.9.10"
+        "webpack": "1.9.10",
+        "worlds-simplest-react-framework": "git@github.com:jonnyohjonnyo/worlds-simplest-react-framework.git"
     }
 }

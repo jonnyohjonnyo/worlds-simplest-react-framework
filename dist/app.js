@@ -47,7 +47,7 @@
 	'use strict';
 
 	var React = __webpack_require__(1);
-	var Framework = __webpack_require__(157);
+	var Framework = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"worlds-simplest-react-framework\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
 
 	var config = { title: 'Awesome application' };
 
@@ -20431,42 +20431,6 @@
 	module.exports = onlyChild;
 
 	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(3)))
-
-/***/ },
-/* 157 */
-/***/ function(module, exports, __webpack_require__) {
-
-	'use strict';
-
-	Object.defineProperty(exports, '__esModule', {
-	    value: true
-	});
-	exports.createApp = createApp;
-	var React = __webpack_require__(1);
-
-	function createApp(config) {
-	    var root = React.createClass({
-	        displayName: 'root',
-
-	        render: function render() {
-	            return React.createElement(
-	                'div',
-	                null,
-	                React.createElement(
-	                    'h1',
-	                    null,
-	                    'Framework Home'
-	                ),
-	                React.createElement(
-	                    'h3',
-	                    null,
-	                    config.title
-	                )
-	            );
-	        }
-	    });
-	    return root;
-	}
 
 /***/ }
 /******/ ]);
