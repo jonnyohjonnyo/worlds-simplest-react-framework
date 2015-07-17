@@ -1,5 +1,7 @@
 {
-  "name": "simplest-react-framework-ever",
-  "version": "0.0.1",
-  "private": true
+    "name": "simplest-react-framework-consumer",
+    "version": "0.0.1",
+    "dependencies": {
+        "worlds-simplest-react-framework" : "git@git.hdquotecenter.com:7999/hdp/uiframeworkprototype.git"
+    }
 }

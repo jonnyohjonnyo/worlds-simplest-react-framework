@@ -1,11 +1,22 @@
-var React = require('react');
-var Framework = require('./framework');
+import React from 'react';
+import {Breadcrumbs} from 'HomeDepot.Platform.UI.Armory';
+import {Breadcrumb} from 'HomeDepot.Platform.UI.Armory';
+import {forgeApp} from 'HomeDepot.Platform.UI.Smith';
+import forge from './routes/forge/components/forge';
+import config from './config.jsx';
 
-var config = { title: 'Awesome application' };
+var breadcrumbList = [{link:'#/partyCentral/Products/5',text:'DXX'},{link:'#/partyCentral/Products/',text:'Hardware Tools'},{text:'Awesome Hammer AB543'}];
 
-var App = Framework.createApp(config);
+console.log(Breadcrumbs);
 
-console.log(App);
+class PartyHard extends Breadcrumbs {
 
-React.render(<App />, document.getElementById('app'));
+}
+
+React.render(<PartyHard/>, document.getElementById('root'));
+
+//let routeComponents = {};
+//routeComponents.money = forge;
+    
+//forgeApp(config, routeComponents);    
 

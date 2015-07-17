@@ -1,6 +1,6 @@
 {
     "version": "1.0.0",
-    "name": "worlds-simplest-react-framework",
+    "name": "framework-consumer",
     "private": true,
     "dependencies": {
         "flux": "2.0.3",
@@ -24,6 +24,7 @@
         "rimraf": "2.3.4",
         "underscore": "1.8.3",
         "webpack": "1.9.10",
-        "worlds-simplest-react-framework": "git@github.com:jonnyohjonnyo/worlds-simplest-react-framework.git"
+        "HomeDepot.Platform.UI.Smith": "//hdc-nas-01/Development/UIFramework/HomeDepot.Platform.UI.Smith",
+	"HomeDepot.Platform.UI.Armory": "/WorkNew/server/HomeDepot.Platform.UI.Armory"
     }
 }
